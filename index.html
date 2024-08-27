@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UserLogin</title>
+    <link rel="stylesheet" href="loginform.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form id="userForm" onsubmit="return validate();">
+                <div class="input-group">
+                    <p class="infoId" id="userName">User Name</p>
+                    <div class="input-field">
+                        <input type="text" id="username" placeholder="">
+                         </div>
+                    <span id="usernameError" class="error"></span>
+                    <br>
+                    <p class="infoId">E-mail</p>
+                    <div class="input-field">
+                        <input type="email" id="email" placeholder="">
+                    </div>
+                    <span id="emailError" class="error"></span>
+                    <br>
+                    <p class="infoId">Password</p>
+                    <div class="input-field">
+                        <input type="password" id="password" placeholder="">
+                    </div>
+                    <span id="passwordError" class="error"></span>
+                    <br>
+                    <p class="infoId">Confirm Password</p>
+                    <div class="input-field">
+                        <input type="password" id="passwordc" placeholder="">
+                    </div>
+                    <span id="passwordcError" class="error"></span>
+                    <br>
+                    <p class="infoId">Phone Number</p>
+                    <div class="input-field">
+                        <input type="number" id="phone" placeholder="">
+                    </div>
+                    <span id="phoneError" class="error"></span>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="btn-field">
+                    <button type="submit" id="signupBtn">Submit</button>
+                    <button type="button" class="disable" id="signinBtn">Sign In</button>
+                </div>
+                <br>
+                <p>Lost Password?? <a href="#">Click Here</a></p>
+            </form>
+        </div>
+    </div>
+    
+</body>
+<script src="loginform.js"></script>
+
+</html>
